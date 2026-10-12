@@ -21,7 +21,7 @@ Runlight is privacy friendly web analytics that you run yourself. It counts visi
 | Elixir | add [`:runlight`](https://hex.pm/packages/runlight) to `mix.exs` |
 | Rust | `cargo add runlight` |
 
-There are also plugins for [WordPress](https://runlight.sh/docs/wordpress/), [Drupal](https://www.drupal.org/project/runlight), and [Craft CMS](https://runlight.sh/docs/craft/), and an MCP server so AI apps can answer questions about your numbers.
+There are also plugins for [WordPress](https://runlight.sh/docs/wordpress/), [Drupal](https://www.drupal.org/project/runlight), and [Craft CMS](https://plugins.craftcms.com/runlight), and an MCP server so AI apps can answer questions about your numbers.
 
 ### Repositories
 
