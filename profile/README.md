@@ -2,7 +2,7 @@
 
 Analytics that lives inside your app.
 
-Runlight is privacy friendly web analytics that you run yourself. It counts visitors without cookies and without storing anyone's IP address, so there's no consent banner to show. The numbers stay in your own database, and the dashboard is served from your own domain. MIT licensed.
+Runlight is privacy friendly web analytics that you run yourself. It counts visitors without cookies and without storing anyone's IP address, so there's no consent banner to show. The numbers stay in your own database, and the dashboard is served from your own domain. It covers pages, sources, goals and revenue, funnels, AI agents reading your pages, and short links on your own domains, and the tracking script is under 2 KB. MIT licensed.
 
 **[runlight.sh](https://runlight.sh)** · [Docs](https://runlight.sh/docs/) · [Changelog](https://github.com/runlightsh/runlight/blob/main/CHANGELOG.md)
 
@@ -11,7 +11,7 @@ Runlight is privacy friendly web analytics that you run yourself. It counts visi
 | Language | Install |
 |---|---|
 | TypeScript and JavaScript | `npm install @runlight/sdk better-sqlite3` |
-| Standalone server | `npx runlight.sh`, or `docker run -p 3000:3000 -v runlight:/data ghcr.io/runlightsh/runlight` |
+| Standalone server | `npx @runlight/server`, or `docker run -p 3000:3000 -v runlight:/data ghcr.io/runlightsh/runlight` |
 | PHP | `composer require runlight/runlight` |
 | Python | `pip install runlight` |
 | Ruby and Rails | `bundle add runlight` |
@@ -21,7 +21,7 @@ Runlight is privacy friendly web analytics that you run yourself. It counts visi
 | Elixir | add [`:runlight`](https://hex.pm/packages/runlight) to `mix.exs` |
 | Rust | `cargo add runlight` |
 
-There are also plugins for [WordPress](https://runlight.sh/docs/wordpress/), [Drupal](https://www.drupal.org/project/runlight), and [Craft CMS](https://plugins.craftcms.com/runlight), and an MCP server so AI apps can answer questions about your numbers.
+Every language serves the same dashboard from the same tables, so you can switch between them without losing your data. There are also plugins for [WordPress](https://runlight.sh/docs/wordpress/), [Drupal](https://www.drupal.org/project/runlight), and [Craft CMS](https://plugins.craftcms.com/runlight), and an [MCP server](https://runlight.sh/docs/mcp/) so AI apps can answer questions about your numbers.
 
 ### Repositories
 
